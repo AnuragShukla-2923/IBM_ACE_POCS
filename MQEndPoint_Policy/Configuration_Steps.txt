@@ -1,0 +1,3 @@
+Steps1: Create a policy project and policy as done in pocs and give the properties.
+Steps2: create an application which will use this policy,in policy propert select the policy.
+steps 3: Create a bar file for application and select policy also then deploy it. 
