@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:car="http://tempuri.org/CardAccountOnboard_msgSet">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <car:OnboardRequest>
+         <car:BankCode>111</car:BankCode>
+         <car:MessageType>2222</car:MessageType>
+         <car:TransactionDate>05022024</car:TransactionDate>
+         <car:TransactionTime>063033</car:TransactionTime>
+         <car:TransactionReference>TransactionReference</car:TransactionReference>
+         <car:SourceID>SourceID</car:SourceID>
+         <car:ProductID>111</car:ProductID>
+         <car:WIID>WIID</car:WIID>
+         <car:CIF>1234567</car:CIF>
+         <car:FullName>ANURAG SHUKLA</car:FullName>
+         <car:AddressLine1>INDORE</car:AddressLine1>
+         <car:AddressLine2>Madhya Pradesh - 234432</car:AddressLine2>
+         <car:Country>INDIA</car:Country>
+         <car:MobileNumber>7687989898</car:MobileNumber>
+         <car:EmailID>anurag.shukla@gramenerit.com</car:EmailID>
+         <car:EmailIDCont>EmailIDCOunt</car:EmailIDCont>
+         <car:PassportID>PassportID</car:PassportID>
+         <car:CreditLimit>100000</car:CreditLimit>
+         <car:BillingCycle>12</car:BillingCycle>
+         <car:MinimumPaymentPercentage>20</car:MinimumPaymentPercentage>
+         <car:BankAccountNumber>11666698789</car:BankAccountNumber>
+         <car:PCTSegment>PCT</car:PCTSegment>
+         <car:FeeTable>22</car:FeeTable>
+         <car:PrimNameOnCard>PrimNameOnCard</car:PrimNameOnCard>
+         <car:VIP>1</car:VIP>
+         <car:CollectorID>101</car:CollectorID>
+      </car:OnboardRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

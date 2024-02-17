@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <NS1:OnboardResponse xmlns:NS1="http://tempuri.org/CardAccountOnboard_msgSet">
+         <NS1:BankCode>111</NS1:BankCode>
+         <NS1:ProductID>111</NS1:ProductID>
+         <NS1:MessageType>2222</NS1:MessageType>
+         <NS1:TransactionDate>5022024</NS1:TransactionDate>
+         <NS1:TransactionTime>63033</NS1:TransactionTime>
+         <NS1:TransactionReference>TransactionReference</NS1:TransactionReference>
+         <NS1:SourceID>SourceID</NS1:SourceID>
+         <NS1:ResponseCode>44</NS1:ResponseCode>
+         <NS1:ErrorCode>55</NS1:ErrorCode>
+         <NS1:ErrorDescription>ERROR DESCRIPTION GENERATED  !</NS1:ErrorDescription>
+         <NS1:CIF>1234567</NS1:CIF>
+         <NS1:ApplicationReferenceNumber>1313131313131</NS1:ApplicationReferenceNumber>
+         <NS1:PrimaryCardNumber>Primary Card NO</NS1:PrimaryCardNumber>
+      </NS1:OnboardResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
